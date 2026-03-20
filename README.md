@@ -366,7 +366,7 @@ Track all connection activity for compliance and review:
 
 ## Architecture
 
-Nexus is built with a clean layered architecture across six projects:
+Nexus is built with a clean layered architecture across five projects:
 
 ```
 Nexus.slnx
@@ -374,7 +374,6 @@ Nexus.slnx
 ├── Nexus.Core       Business logic — ViewModels, services, models
 ├── Nexus.Data       Data access — EF Core, SQLite, entities, migrations
 ├── Nexus.Rdp        Protocol layer — RDP, SSH, VNC, Telnet session hosts
-├── Nexus.Web        Web interface — ASP.NET Core, Guacamole integration
 └── Nexus.Setup      Installer — WPF setup wizard, GitHub release downloader
 ```
 
